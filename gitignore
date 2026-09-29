@@ -1,0 +1,43 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+
+# ---- Virtual environments ----
+venv/
+env/
+.venv/
+ENV/
+
+# ---- Environment / secrets ----
+.env
+.env.*
+kaggle.json
+
+# ---- Jupyter / Colab ----
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.virtual_documents/
+
+# ---- Generated / output data ----
+cleaned_covid_india.csv
+*.csv.bak
+outputs/
+*.log
+
+# ---- Editor / IDE ----
+.vscode/
+.idea/
+*.swp
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- Misc ----
+*.tmp
+*.bak
