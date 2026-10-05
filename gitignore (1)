@@ -1,0 +1,64 @@
+# ---------- Generated output ----------
+# Created by the last notebook cell; can be regenerated from the raw CSV
+House_Price_cleaned.csv
+*_cleaned.csv
+
+# Raw data (House_Price_data.csv) is intentionally NOT ignored (small, needed to run the notebook).
+# If you add large or private datasets later, ignore them here, for example:
+# data/raw/
+# *.parquet
+
+# ---------- Jupyter / Colab ----------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.virtual_documents/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---------- Secrets (never commit these) ----------
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+service_account*.json
+
+# ---------- Saved models / large artifacts ----------
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# ---------- Editors / IDEs ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---------- OS files ----------
+.DS_Store
+Thumbs.db
+desktop.ini
